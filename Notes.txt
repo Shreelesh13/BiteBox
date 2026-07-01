@@ -1,1 +1,19 @@
-hm- a2+b2
+Padding & Margin:-
+
+Padding create space between content border and border element.
+
+Margin creates space around the element border
+
+
+
+
+Flex :-
+Flexbox is one dimensional css layout model used to arrange, align and distribute space between items in a row or colum.
+
+Key flexbox prop:
+1) display-flex ==> makes the parent element a flex container.
+2) flex-direction ==> set the direction of items(row or colum)
+3) justify-content ==> align items along the main axis
+4) align-items ==> align items along the cross axis
+5) gap ==> add space between flex items
+6) flex-wrap ==> 

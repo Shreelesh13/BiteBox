@@ -1,0 +1,21 @@
+* SWOT analysis :- 
+
+S- Strength
+W- Weakness
+O- Opportunites
+T- Treats 
+
+S- Quick Learner, Laerning both frontend and backend development
+W- Laizeess, Don't have a strong portfolio
+O- Opportunites to build project and improve portfolio, High demand for full stack developers
+T- Have to improve skills according to the meta, High competition for entry level roles
+
+
+
+* SMART 
+
+S- Specific
+M- Measurable
+A- Achiveable
+R- Realistic
+T- Timebound

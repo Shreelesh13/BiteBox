@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+
+<!-- Link of Font and Icons -->
+       <script src="https://kit.fontawesome.com/7f2fc51bc6.js" crossorigin="anonymous"></script>
+
+       <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+
+       <link rel="stylesheet" href="style/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Menu Page</h2>
+  
+<!-- Start Header Section -->
+    <header>
+    <nav>
+      <div>
+        <!-- Logo -->
+         <img src="images/logo.png.png" alt="Logo" width="180px" height="70px">
+        </div>
+
+         <!-- Menu -->
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="bitedeals.html">BiteDeals</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-from-bracket"></i>Login</a></li>
+          </ul>
+      
+    </nav>
+  </header>
+<!-- End header section -->
+
+
+<!-- Start Filter Section -->
+
+<div class="category-icons">
+    <div class="icon-box" id="icon-1">
+        <img src="images/mealbox.png" alt="meal">
+        <p>All</p>
+    </div>
+
+    <div class="icon-box" id="icon-2">
+        <img src="images/burger-card1.png" alt="Burger">
+        <p>Burger</p>
+    </div>
+
+    <div class="icon-box" id="icon-3">
+        <img src="images/pizza-card2.png" alt="Pizza">
+        <p>Pizza</p>
+    </div>
+
+    <div class="icon-box" id="icon-4">
+        <img src="images/alfredo-pasta-card4.png" alt="Pasta">
+        <p>Pasta</p>
+    </div>
+
+    <div class="icon-box" id="icon-5">
+        <img src="images/fries.png" alt="Fries">
+        <p>Fries</p>
+    </div>
+
+    <div class="icon-box" id="icon-6">
+        <img src="images/coffee.png" alt="Coffee">
+         <p>Coffee</p>
+    </div>
+
+    <div class="icon-box" id="icon-7">
+        <img src="images/moms.png" alt="Momos">
+        <p>Momos</p>
+    </div>
+</div>
+
+<!-- End Filter Section -->
+
+
+<!-- Start Menu Section  -->
+
+</section class="menu">
+<!-- <h2>Our Menu</h2> -->
+<div class="menu-container">
+    <div class="card" id="card-1">
+        <img src="images/burger-card1.png">
+        <h3>Burger</h3>
+        <p>Cheesy Burger</p>
+        <span>₹199</span>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card" id="card-2">
+        <img src="images/pizza-card2.png">
+        <h3>Pepperoni Pizza</h3>
+        <p>Cheesy Pizza with Pepperoni</p>
+        <span>₹349</span>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card" id="card-3">
+        <img src="images/paneer-pizza-card3.png">
+        <h3>Paneer Tikka Pizza</h3>
+        <p>Loaded with Spicy Paneer Chunks</p>
+        <span>₹299</span>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card" id="card-4">
+        <img src="images/alfredo-pasta-card4.png">
+        <h3>Alfredo Pasta</h3>
+        <p>Creamy White Sauce Pasta</p>
+        <span>₹229</span>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+  <!-- End Menu Section -->
+
 </body>
 </html>

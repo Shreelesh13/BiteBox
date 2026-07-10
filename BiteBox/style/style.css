@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Font Family */
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* NavBar */
+
+nav{
+    background: linear-gradient(to right, #00000000, #444444);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.959);
+    padding: 15px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav h2{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+nav a:hover{
+    color: #ff6b6b;
+}
+
+nav li:last-child a {
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+}
+
+nav li:last-child a:hover {
+    background: rgb(170, 0, 0);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 68, 68, 0.4);
+}
+
+/* Navbar Ends */
+
+
+/* Hero Section */
+
+.hero{
+    height: 90vh; width: 100%;
+    background: url("../images/banner_1.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+        font-size: 75px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero button:hover{
+    background: rgb(170, 0, 0);
+    transform: translateY(-2px);
+}
+
+/* Hero Section Ends */
+
+
+/* Video Section Starts */
+
+.video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 40px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to left, #00000000, #1f1f1f);
+}
+
+.video-text{
+    padding-left: 100px;
+    padding-right: 20px;
+    flex: 1;
+}
+
+.video-box{
+    flex: 1;
+}
+
+.video-box video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-text h2{
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.video-text p{
+    font-size: 32px;
+}
+
+/* Video Section Ends */
+
+
+/* Content Section Starts */
+
+.content-section{
+      background: linear-gradient(to left, #00000000, #1f1f1f);  
+}
+
+/* Content Section Ends */
+
+
+/* About Section Starts */
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to left, #00000000, #1f1f1f);
+}
+
+.about h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgba(255, 0, 0, 0.615)
+}
+
+.about p{
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* About Section Ends*/
+
+/* MENU.HTML */
+
+/* Filter Section Starts */
+
+.category-icons{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow: auto;
+    background: #fff;
+    justify-content: center;
+}
+
+.icon-box{
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.icon-box img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    padding: 5px;
+}
+
+.icon-box p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.icon-box:hover{
+    border-color: rgb(0,0,0);
+    transform: scale(1.1);
+}
+
+.icon-box p:hover{
+    color: red;
+}
+
+
+/* Filter Section Ends */
+
+
+/* Menu Section Starts */
+
+.card{
+background: #fff;
+padding: 15px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.card button:hover{
+    background: darkred;
+}
+
+.menu-container{
+    background: linear-gradient(to left, #00000000, #1f1f1f);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Menu section Ends */

@@ -25,3 +25,5 @@ display-inline-block
 
 
 Create a modern and professional logo for a food delivery app named "BiteBox", Use a red and black color theme to represent bold, fast and delicious food service. Include a food-related icon such as a burger, pizza slice, or a meal box with food inside. place the icon on the left side and the text "Bitebox" on the right side in a horizontal way. Use a clean, bold typography, highlighting "Bite" in white and "Box" in red. The design should be minimal, eye-catching and clearly represent a food delivery brand
+
+
